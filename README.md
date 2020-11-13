@@ -6,6 +6,9 @@ Realizado teste de um processamento de numeros Primos sem worker_threads e com w
 a diferença dos testes são comparados abaixo, mostrando o poder de worker_threads do nodejs. 
 ![image](https://github.com/fidsouza/workerthreads/blob/main/workerthreads.png)
 
+sendo 0.15ms sem utilização do `worker_threads`
+e 0.06 com `worker_threads`
+
 ## Como executar ? 
 
 instale as dependências usando o comando npm
