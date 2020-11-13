@@ -1,0 +1,27 @@
+{
+  "name": "workerthreads",
+  "version": "1.0.0",
+  "description": "Utilizando Worker Threads com NodeJs para processamento",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:server": "ts-node-dev src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fidsouza/workerthreads.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fidsouza/workerthreads/issues"
+  },
+  "homepage": "https://github.com/fidsouza/workerthreads#readme",
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "@types/node": "^14.14.7"
+  }
+}
